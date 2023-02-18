@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "target": "es2020",
+    "paths": {
+      "@comp/*": ["components/*"],
+      "@styles/*": ["styles/*"],
+      "@assets/*": ["assets/*"],
+      "@ctx/*": ["Contexts/*"],
+      "@img/*": ["public/images/*"],
+      "@layout/*": ["layout/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.js", "**/*.jsx"],
+  "exclude": ["node_modules"]
+}
